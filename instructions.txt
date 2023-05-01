@@ -1,0 +1,8 @@
+# create environment variables
+create variables.tf
+create terraform.tfvars
+create backend.tf 
+providers.tf
+# create vpc environment
+create vpc.tf 
+create nat-gateway.tf
