@@ -112,3 +112,9 @@ variable "container_image" {
   description = "ecs docker image"
   type        = string
 }
+
+# route 53 variables
+variable "record_name" {
+  description = "record name"
+  type        = string
+}
