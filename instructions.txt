@@ -6,3 +6,6 @@ providers.tf
 # create vpc environment
 create vpc.tf 
 create nat-gateway.tf
+create security-groups.tf 
+create rds.tfc
+create acm.tf
