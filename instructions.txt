@@ -9,3 +9,7 @@ create nat-gateway.tf
 create security-groups.tf 
 create rds.tfc
 create acm.tf
+create alb.tf 
+create  ecs-role.tf 
+create ecs.tf 
+create asg.tf

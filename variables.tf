@@ -16,12 +16,12 @@ variable "environment" {
 }  
 
 # s3 variables
-variable "bucket" {
+variable "env_file_bucket_name" {
   description = "s3 bucket name"
   type        = string
 }
 
-variable "key" {
+variable "env_filename" {
   description = "s3 folder/file name"
   type        = string
 }
@@ -98,5 +98,17 @@ variable "domain_name" {
 
 variable "alternative_names" {
   description = "alternative domain names"
+  type        = string
+}
+
+# ecs variables
+
+variable "cpu_architecture" {
+  description = "ecs cpu architecture"
+  type        = string
+}
+
+variable "container_image" {
+  description = "ecs docker image"
   type        = string
 }
